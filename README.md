@@ -1,6 +1,13 @@
 ## Description
 
+Development framework for server-side applications based on node by Nestjs
+
+Core technology: node.js, NestJs, TypeORM, MongoDB, Sql server
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## DB config 
+ormconfig.json
 
 ## Installation
 
@@ -11,6 +18,9 @@ $ npm install -g typeorm-model-generator
 ```
 
 ## Running the app
+
+SwaggerUI page: `localhost:3002/api`
+
 
 ```bash
 # development
@@ -24,7 +34,7 @@ $ npm run start:prod
 ```
 
 
-## CLI command
+## CLI command (Important)
 
 ```bash
 # generate CRUD module
