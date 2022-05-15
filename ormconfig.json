@@ -1,0 +1,21 @@
+[
+	{
+		"type": "mongodb",
+		"host": "localhost",
+		"port": 27017,
+		"database": "plat",
+		"entities": ["dist/**/*.entity{.ts,.js}"],
+		"synchronize": true
+	},
+	{
+		"type": "mssql",
+		"host": "localhost",
+		"port": 1433,
+		"username": "sa",
+		"password": "user123",
+		"database": "iq",
+		"entity": ["dist/**/*.entity{.ts,.js}"],
+		"synchronize": false,
+		"options": { "trustServerCertificate": true }
+	}
+]
